@@ -33,6 +33,17 @@ if (età < 18) {
 
 }
 
+// Passeggero > di 65 sconto 40%
+
+if (età > 65) {
+
+    sconto = 4/10;
+
+    prezzototale = (prezzototale - (prezzototale*sconto)).toFixed(2);
+    console.log(prezzototale);
+
+}
+
 
 
 

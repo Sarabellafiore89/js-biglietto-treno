@@ -12,3 +12,14 @@ let km = parseInt(prompt("Quanti km vuole percorrere?"));
 // Chiediamo all'utente l'età
 
 let età = parseInt(prompt("Quanti anni ha il passeggero?"));
+
+// Prezzo biglietto x km
+
+const prezzoPerKm = 0.21;
+
+// Calcolo del prezzo del biglietto
+
+let prezzototale = km * prezzoPerKm;
+console.log(prezzototale);
+
+

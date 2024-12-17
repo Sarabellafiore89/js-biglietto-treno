@@ -44,6 +44,14 @@ if (età > 65) {
 
 }
 
+else {
+console.log(prezzototale);
+
+}
+
+
+
+
 
 
 

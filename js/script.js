@@ -22,4 +22,17 @@ const prezzoPerKm = 0.21;
 let prezzototale = km * prezzoPerKm;
 console.log(prezzototale);
 
+// Passeggero < di 18 sconto 20%
+
+if (età < 18) {
+
+    sconto = 2/10;
+
+    prezzototale = (prezzototale - (prezzototale*sconto)).toFixed(2);
+    console.log(prezzototale);
+
+}
+
+
+
 

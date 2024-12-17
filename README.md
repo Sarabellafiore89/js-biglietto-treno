@@ -9,8 +9,8 @@ Il programma dovrà chiedere all’utente il numero di chilometri che vuole perc
 
 -Chiediamo all'utente il numero di KM che vuole percorrere
 -Chiediamo all'utente l'età del passeggero
--calcoliamo il prezzo del biglietto in base ai km
-    -SE il passeggero è < di 18 anni , avrà sconto del 20;
-    -SE il passeggero è > di 65 anni , avrà sconto del 40;
+-calcoliamo il prezzo del biglietto in base ai km (.21 € al km)
+    -SE il passeggero è < di 18 anni , avrà sconto del 20%;
+    -SE il passeggero è > di 65 anni , avrà sconto del 40%;
     -SE il passeggero ha tra i 18 e i 64 anni, pagherà a prezzo pieno;
 -Prezzo finale = output
